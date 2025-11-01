@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style01.css" >
+<link rel="shortcut icon" href="css-3.png" type="image/x-icon">
+    <title>Caixa Interativa</title>
+</head>
+<body>
+    <h1>Caixa interativa &#x1F383</h1>
+    <p>Essa é a caixa interativa</p>
+    <div id = 'area'>
+        Interaja aqui...
+    </div>
+    <br>
+<img src="Gartoon-Team-Gartoon-Action-Help-hint-bulb-idea.512.png" width="300px" height="300px" alt="light">
+<br>
+<a href="https://edition.cnn.com/2019/10/27/us/national-black-cat-day-trnd">blackcat</a>
+
+</body>
+<script>
+    a = window.document.getElementById('area')
+    a.addEventListener('click',clicar)
+    a.addEventListener('mouseenter',entrar)
+    a.addEventListener('mouseout',sair)
+    function clicar() {
+    a.innerText = 'Clicou!'
+    a.style.background = 'Orange'
+    }
+    function entrar () {
+        a.innerText = 'Entrou!'
+        a.style.background = 'Blue'
+        a.style.color = 'white'
+    }
+    function sair (){
+        a.innerText = 'Saiu!'
+        a.style.background = 'Yellow'
+        a.style.color = 'black'
+    }
+</script>
+</html> 

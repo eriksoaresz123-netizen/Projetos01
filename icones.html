@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Gartoon-Team-Gartoon-Action-Help-hint-bulb-idea.512.png" type="image/x-icon">
+    <title>Icones teste</title>
+    <style>
+        body{
+            font: normal 25pt Arial;
+            background: rgb(228, 96, 96);
+            color: white;
+        }
+        h1{
+            font: normal  50pt Times New Roman;
+        }
+        div#area{
+            background: yellowgreen;
+            width: 300px;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Esse é um ícone do site!</h1>
+    <p>Esse site é experimental</p>
+    <img src="Gartoon-Team-Gartoon-Action-Help-hint-bulb-idea.512.png" alt="light">
+    <div id = "area">
+        Interaja aqui..
+    </div>
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        
+        
+        
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+
+
+        }
+    </script>
+
+    
+</body>
+</html>

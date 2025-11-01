@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(146, 48, 48);
+    font: normal 18pt Verdana;
+    color: white; 
+    font-weight: bold;
+
+}
+#area{
+    margin: 0px 0px 0px 1200px;
+    background-color:yellowgreen;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    border: solid white;
+    border-radius: 30px 0px;
+
+}
+h1{
+    margin-left: 1200px;
+
+}
+p{
+    margin-left: 1200px;
+    border: solid 3px;
+    width: 350px;
+    border-radius: 10px;
+    background: black;
+}
+img{
+    margin-left: 1200px;
+}
+a {
+    margin-left: 1200px;
+    color: yellow;
+}

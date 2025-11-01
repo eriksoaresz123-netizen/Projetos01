@@ -1,0 +1,45 @@
+body { 
+    font: normal 18pt Verdana;
+    background-color: rgb(230, 133, 133);
+    color: white;
+    font-weight: bold;
+}
+p{
+    background: rgb(188, 188, 250);
+    width:950px;
+    height:100px;
+    line-height:100px;
+    text-align: center;
+    border: solid white;
+    border-radius: 10px;
+    margin-left: 960px
+
+}
+h1 {
+    color: rgb(188, 188, 250);
+    margin-left: 1200px;
+    border:solid white;
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: yellow;
+     
+}
+img {
+    margin-left: 1300px;
+    border-radius: 10px;
+}
+a {
+    margin: 0 0 0 1400px;
+}
+#area{
+    background: yellowgreen;
+    width: 300px;
+    height: 300px;
+    line-height:300px;
+    text-align: center;
+    margin: 10px 0 0 1300px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentando interação e ícones</title>
+    <link rel="shortcut icon" href="knife.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            font: normal 30pt Times New Roman;
+            color: white; 
+
+        }
+        div#area{
+            background: yellowgreen;
+            width: 300px;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Home</h1>
+    <h2>Aqui irei apresentar uma parte do projeto! &#x1F4A3; </h2>
+    <p1>Abaixo eu apresento uma imagem sobre <strong>html</strong>:&#x1F440;</p1>
+    <br>
+    <img src="html.png" alt="html">
+    <br>
+    <p1>Abaixo é uma imagem sobre <strong>CSS</strong>: &#x1F480;</p1>
+    <br>
+    <img src="css-3.png" alt="css">
+    <br>
+    <p1> Abaixo eu mostro o <strong>JavaScript</strong>: &#x2B50;</p1>
+    <br>
+    <img src="java-script.png" alt="js">
+    <h1> Aqui a baixo você pode se distrair com a box interativa! &#x1F9AB;</h1>
+
+    <div id = "area">
+        Interaja aqui!
+    </div>
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener('click',clicar)
+        a.addEventListener('mouseenter',entrar)
+        a.addEventListener('mouseout',sair)
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'blue'
+
+        }
+        function entrar() {
+            a.innerText = 'Entrou'
+            a.style.background ='red'
+        }
+        function sair() {
+            a.innerText = 'Saiu'
+            a.style.background = 'orange'
+        }
+    </script>
+
+
+    
+</body>
+</html>
